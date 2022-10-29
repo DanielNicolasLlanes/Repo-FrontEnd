@@ -1,0 +1,11 @@
+#logoAP{
+	width: 70%;
+	height: auto;
+}
+
+@media(max-width: 576px){
+	#logoAP{
+		width: 20%;
+		height: auto;
+	}
+}

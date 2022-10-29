@@ -1,0 +1,25 @@
+.row{
+	color: #fff;
+	padding-top: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 50px 0 80px;
+}
+.encabezado{
+	display: inline;
+}
+
+.table{
+	color: #fff;
+}
+.boton{
+	font-size: .6rem;
+	width: 70px;
+	height: 40px;
+}
+
+.bExp{
+	font-size: .8rem;
+	width: 50px;
+	height: 30px;
+}

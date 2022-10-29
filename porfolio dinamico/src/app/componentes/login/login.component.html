@@ -1,0 +1,22 @@
+<div class="container-fluid">
+<form #f="ngForm" (ngSubmit)="onLogin()" novalidate class="form">
+	<h2 id="form-title">Iniciar Sesión</h2>
+	<p id="form-parrafo">Aun no tienes una cuenta? <a href="#" id="form-link">Entra aquí</a></p>
+
+	<div class="form-container">
+		<div class="form-group">
+			<input type="text" id="nombreUsuario" name="nombreUsuario" class="form-input" placeholder=" " [(ngModel)]="nombreUsuario" required>
+			<label for="nombreUsuario" class="form-label">Usuario</label>
+			<span class="form-line"></span>
+		</div>
+
+		<div class="form-group">
+			<input type="password" id="password" name="password" class="form-input" placeholder=" " [(ngModel)]="password" required>
+			<label for="password" class="form-label">Contraseña</label>
+			<span class="form-line"></span>
+		</div>
+
+		<input type="submit" class="form-submit" value="Ingresar">
+	</div>
+</form>
+</div>

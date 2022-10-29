@@ -1,0 +1,15 @@
+.icono{
+	background-color: #000;
+	color: #fff;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.icono:hover{
+	background: #fff;
+	color: #000;
+}
+
